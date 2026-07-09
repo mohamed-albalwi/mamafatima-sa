@@ -119,9 +119,9 @@
   /* التذييل */
   footer{background:var(--cocoa);color:var(--sand);padding:46px 22px 30px;text-align:center}
   footer h3{color:var(--sand);font-size:1.6rem;margin-bottom:6px}
-  .contact{display:flex;justify-content:center;gap:10px;margin:22px 0 26px;flex-wrap:wrap}
+  .contact{display:grid;grid-template-columns:1fr 1fr;max-width:560px;gap:10px;margin:22px 0 26px;flex-wrap:wrap}
   .contact a{
-    display:inline-flex;align-items:center;gap:8px;
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
     color:var(--sand);text-decoration:none;font-weight:700;
     border:1px solid rgba(233,220,196,.4);border-radius:8px;
     padding:8px 14px;font-size:.85rem;transition:background .2s,color .2s;
